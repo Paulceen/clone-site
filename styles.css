@@ -1,0 +1,242 @@
+.container {
+    height: 1000px; 
+}
+.container-1 {
+    display: flex;
+    position: relative; 
+    flex: 1;
+    height: 150px;
+}
+.inner-container-1 img {
+    position: relative; 
+    width: 200px;
+    height: 170px;
+    bottom: 40px;
+}
+.inner-container {
+    position: relative;  
+    display: flex; 
+    margin-top: 0px;
+    margin-left: 15px;
+    width: 900px;
+    height: 500px;
+}
+
+ 
+ .form {
+    position: absolute;
+    width: 300px;
+}
+form.example input[type=text] {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+    border: 1px solid rgba(0, 0, 255, 0.603);
+    float: left;
+    width: 600px;
+    background: #f1f1f1;
+}
+.inner-container button {
+    width: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border:none;
+}
+.inner-wrapper {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 20px;
+    width: 350px;
+
+}
+.inner-button {
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.inner-wrapper img {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.inner-wrapper p {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+
+}
+.inner-container-2 {
+    position: absolute;
+    display: flex;
+    top: 70px; 
+}
+.inner-container-2 p {
+    margin-right: 15px;
+    margin-left: 30px;
+}
+.inner-container-2 img {
+    width: 15px;
+    height: 15px;
+}
+.container-2 {
+    position: relative;
+    height: 800px;
+}
+.container-2-inner {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 120px;
+    width: 700px;
+}
+.container-2-inner button {
+    width: 100px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+}
+.container-2-inner-1 {
+    position: absolute;
+    right: -70px;
+    transform: translateX(120%);
+    width: 350px;
+    height: 650px;
+    top: 20px;
+}
+.box {
+    width: 7px;
+    height: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    background-color: black;
+}
+.container-2-text {
+    margin-left: 12px;
+    margin-top: -18px;
+    font-size: 18px; 
+}
+.container-2-list {
+    margin-left: -26px;
+    border-bottom: 10px;
+}
+.container-2-inner-2 {
+    float: right;
+    position: absolute;
+    right: 40px;
+    top: 5px;
+    
+}
+.container-2-inner-3 {
+    width: 280px;
+    height: 170px;
+    margin-left: 22px;
+    margin-top: 30px;
+}
+.text-2 {
+    margin-left: 60px;
+}
+.container-2-inner-3 button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 80px;
+}
+.text-3 {
+    font-size: 20px; 
+    margin-top: 15px;
+}
+.container-2-inner-4 {
+    position: absolute;
+    top: 420px;
+    display: flex;
+
+}
+h1 {
+    font-size: 20px;
+} 
+.text-4 {
+    margin-left: 120px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.container-2-inner-5 {
+    position: absolute;
+    top: 450px;
+}
+.container-3 {
+ display: flex; 
+ position: absolute;
+ top: 50px;
+ left: 50px;
+ width: 900px;
+ border-radius: 5px;   
+}
+
+.container-3 img {
+    width: 600px;
+    height: 270px;
+    border-radius: 5px;
+}
+.container-4 {
+    position: absolute;
+    display: flex;
+    top: 350px;
+    width: 250px;
+    left: 50px;
+
+}
+.container-4 img {
+    width: 170px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.container-5 {
+    position: absolute;
+    left: 50px;
+    bottom: -50px;
+    transform: translateY(120px);
+}
+.container-5-inner {
+    display: flex;
+}
+.container-5-text {
+    margin-left: 12px;
+    font-size: 18px; 
+}
+.container-5-inner-text {
+    display: flex;
+}
+span {
+    float: left;
+    margin-top: 5px;
+    margin-right: -10px;
+    size: 20px;
+    color: white;
+    padding-left: 5px;
+}
+.container-5-inner-text button {
+    width: 120px;
+    height: 30px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
+
+}
+
+.container-5-inner-text p {
+    margin-top: 8px;
+    margin-left: -20px;
+}
